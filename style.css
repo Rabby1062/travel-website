@@ -1,0 +1,17 @@
+/* header section */
+
+header {
+  margin: 50px 135px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  margin-right: 44px;
+}
