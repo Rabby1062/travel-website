@@ -1,6 +1,17 @@
-/* header section */
+.btn-primary {
+  background-color: #ff5400;
+  color: #fff;
+  border-radius: 8px;
+  padding: 14px 34px;
+  border: none;
+}
 
-header {
+/* header section */
+.container {
+  margin: 100px 100px;
+}
+header,
+.background {
   margin: 50px 135px;
 }
 header nav {
@@ -14,4 +25,40 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   margin-right: 44px;
+}
+
+/* background  */
+.background {
+  color: #fff;
+  padding: 100px 185px;
+  background-image: url(Images/background.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.background h1 {
+  font-size: 64px;
+  font-weight: 800;
+}
+
+input {
+  width: 200px;
+  height: 52px;
+  margin-top: 16px;
+  padding-left: 10px;
+  left: 412px;
+  border-radius: 8px;
+  border: none;
+}
+
+.find {
+  background-color: orangered;
+  color: #fff;
+  text-align: center;
+}
+
+/*  */
+.popular-tour {
+  display: flex;
 }
